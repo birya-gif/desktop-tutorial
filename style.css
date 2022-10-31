@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-senf;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+@font-face {
+    font-family: "Kolker Brush";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Kolker Brush"),
+         /* Если не получилось, загрузит woff2 */
+         url("/fonts") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("/fonts/KolkerBrush-Regular.woff") format("woff");
+  }
+body{
+    background-size:100%100%;
+    background-attachment:fixed;
+}
+.container {
+    width: 1140;
+    margin: 0 auto;
+}
+.top{
+   
+  height: 768px;
+  background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+.top_content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url(img/illustration.png);
+    background-repeat: no-repeat;
+    background-position-x: 515px;
+    background-position-y: 80px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding-top:42px;
+   
+}
+.top_info{
+    flex-grow: 1;
+    padding-top: 115px;
+    width: 510px;
+    font-size: 64px;
+    font-weight: 300px;
+    letter-spacing: 0.04em;
+    line-height: 74px;
+color: #1F3F68;
+
+}
+.rock{
+    margin-top: 32px;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+}
+.top__button{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    
+    color: #FFFFFF;
+    background: #5A98D0;
+box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+border-radius: 10px;
+padding: 15px 50px;
+text-decoration: none;
+margin-top: 71px;
+}
+.what_we_do{
+    text-align: center;
+    font-weight: 300;
+font-size: 36px;
+line-height: 46px;
+letter-spacing: 0.05em;
+padding-top: 64px;
+}
+p{
+font-size: 16px;
+line-height: 26px;
+color: #1f3f68;
+}
+h1{
+    font-size: 64px;
+    color: #1f3f68;
+    width: 510px;
+    font-family: "Kolker Brush", cursive;
+}
+.rock{
+    width: 425px;
+}
+.paragraf{
+    margin-right: 32px;
+    width: 359px;
+    background: #FFFFFF;
+box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+border-radius: 10px;
+padding: 44px 32px;
+box-sizing: border-box;
+box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+border-radius: 10px;
+background-color: #fff;
+
+}
+.hobbit_menu{
+    font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.05em;
+color: #1F3F68;
+padding-bottom: 15px;
+}
+.card_link{
+    font-weight: 400;
+font-size: 14px;
+line-height: 30px;
+letter-spacing: 0.05em;
+color: #5A98D0;
+
+}
+.paragraf3{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+}
+.text_heading{
+    margin-top: 64px;
+    font-weight: 300;
+font-size: 36px;
+line-height: 46px;
+text-align: center;
+letter-spacing: 0.05em;
+color: #000000;
+}
+.text_text_heading{
+    width: 75%;
+    margin-top: 32px;
+    margin-bottom: 64px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.05em;
+color: #222222;
+}
+.project_item{
+    position: relative;
+
+background: linear-gradient(89.99deg, #1F3F68 3.62%, rgba(31, 63, 104, 0.37) 97.78%);
+}
+.project_text{
+    position: absolute;
+    top: 64px;
+    right: 64px;
+    font-size: 32px;
+line-height: 46px;
+text-align: right;
+letter-spacing: 0.05em;
+color: #FFFFFF
+
+}
+.project_card{
+   
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.par{
+    position: absolute;
+    font-size: 28px;
+line-height: 46px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+left: 32px;
+top: 32px;
+}
+.project1{
+flex-grow: 1;
+position: relative;
+}
+.project12{
+    margin-right: 32px;
+}
+
+.project_img{
+    width: 100%;
+    
+}
+.Intersted_to_woek{
+    width: 340px;
+}
+.Intersted_to_woek1{
+    width: 495;
+}
+.footer{
+    background: #316099;
+  margin-top: 112px;
+  padding-top: 91px;
+  padding-bottom: 64px;
+  
+}
+
+.footer_1{
+    padding-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Intersted_to_woek{
+    width: 340px;
+    text-align: left; 
+    color: #fff;
+    margin-bottom: 32px;
+    font-size: 36px;
+    line-height: 46px;
+    
+    margin-left: 113px;
+    letter-spacing: 0.05em;
+    
+   
+}
+.Intersted_to_woek1{
+    margin-left: 113px;
+    top: 215px;
+    left: 113px;
+    font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+opacity: 0.6;
+}
+.footer_button{
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+padding: 15px 80px;
+background: #5A98D0;
+}
+.footer_2in{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 32px;
+    margin-top: 64px;
+}
+.text_foot{
+    font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+flex-grow: 1;
+flex-basis: 33.3333%;
+margin-right: 32px;
+}
+.top_info_2{
+   text-align: center;
+}
+.all_rights{
+    margin-left: 32px;
+    margin-top: 64px;
+    font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+opacity: 0.4;
+}
+.top_star{
+    color: #FFFFFF;  
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+h3{
+    font-size: 36px;
+text-align: center;
+}
+h4{
+    font-size: 20px;
+    line-height: 30px;
+    color: #1f3f68;
+}
+input {
+    border: 1px solid #356ead;
+    box-sizing: border-box;
+    opacity: 0.4;
+}
+.send1{
+    border: 1px solid #356ead;
+    box-sizing: border-box;
+    opacity: 0.4;
+}
+.submit{
+    background: #5a98d0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+
+}
